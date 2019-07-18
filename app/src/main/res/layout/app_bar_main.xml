@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.design.widget.AppBarLayout
+        android:id="@+id/app"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/AppTheme.AppBarOverlay"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <android.support.v7.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:background="@color/colorPrimaryDark"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:layout_width="80dp"
+                android:layout_height="48dp"
+                android:src="@drawable/logo"
+                android:layout_marginRight="10dp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                android:orientation="horizontal">
+                <EditText
+                    android:id="@+id/etSearch"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:textColor="@color/colorMenu"
+                    android:background="@drawable/white_rounded_shape"
+                    android:drawableLeft="@drawable/ic_search_light_gray_24dp"
+                    android:drawablePadding="14dp"
+                    android:fontFamily="@font/liberationserifbold"
+                    android:hint="Serach Entire Store Here..."
+                    android:textColorHint="#464242"
+                    android:padding="10dp"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </android.support.v7.widget.Toolbar>
+    </android.support.design.widget.AppBarLayout>
+
+        <FrameLayout
+            android:id="@+id/fragment_container"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/app"
+            android:layout_above="@id/navigation" />
+
+        <android.support.design.widget.BottomNavigationView
+            android:id="@+id/navigation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            app:labelVisibilityMode="labeled"
+            app:layout_anchor="@+id/fragment_container"
+            app:itemIconSize="25dp"
+            app:layout_anchorGravity="left|bottom"
+            android:outlineAmbientShadowColor="@color/colorPrimary"
+            app:layout_constraintBottom_toBottomOf="parent"
+            android:background="@color/colorPrimary"
+            app:itemTextColor="@color/colorMenu"
+            app:itemIconTint="#fff"
+            app:menu="@menu/bottum_navi"/>
+
+</RelativeLayout>

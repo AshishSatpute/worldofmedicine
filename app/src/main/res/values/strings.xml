@@ -1,0 +1,166 @@
+<resources>
+    <string name="app_name">Medicine and More</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Admin</string>
+    <string name="menu_home">Home</string>
+    <string name="nav_header_subtitle">Admin@wpe.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="menu_order">Order History</string>
+    <string name="forget_pass">Forget Password</string>
+    <string name="login">Login</string>
+
+    <string name="menu_cat">Categories</string>
+    <string name="menu_medi_policy">Medicine Delivery Policy</string>
+    <string name="menu_privacy">Privacy Policy</string>
+    <string name="menu_About">About Us</string>
+    <string name="menu_logout">Logout</string>
+    <string name="menu_settings">Settings</string>
+    <string name="menu_share">Share</string>
+    <string name="menu_send">Send</string>
+    <string name="menu_contact">Contact Us</string>
+    <string name="network">Network Not Available</string>
+    <string name="register_hint">Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="cancel">Cancel</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="email_invalid">Invalid Email</string>
+    <string name="email">Please Enter Email</string>
+    <string name="password_reset">Password Reset</string>
+    <string name="pwd_reset_instruction">Enter your registered email address ,We will send you an email to reset your password</string>
+
+    <string name="privacy">Prasad medical</string>
+
+    <string name="about_us">PRASAD MEDICAL APP,</string>
+
+    <string name="about_us1">is mobile application offered by PRASAD MEDICAL AND GENERAL STORES,Pratapnagar, Nagpur which takes cares of all your daily drug stores need,
+        which making people’s life’s easier with convenient online order placing by instantly upload your prescription and leave the rest to our pharmacist – they will reach out to you promptly.
+    </string>
+
+    <string name="about_us2">
+        We offer complete range of prescription and non-prescription items which includes Allopathic, Ayurvedic medicines, Surgical items, cosmetic, OTC’s, Supplements, Instruments, Body care and Baby care products.
+      </string>
+    <string name="about_us3">
+        PRASAD MEDICAL AND GENERAL STORES established in Pratapnagar, Nagpur in year 1989 by Mr.Chandrakant Anirudh Phasate as consecutive branch of  PHASATE MEDICALS, MAHAL, NAGPUR founded by Mr. Anirudh S. Phasate.
+        Legacy of family business maintained and followed by third generation by Mr. Prasad C.
+    </string>
+    <string name="about_us4">Phasate Awards and Recognition-
+        PRASAD MEDICAL AND GENERAL STORES is awarded as BEST CHEMIST AND DRUGIST SHOP OF NAGPUR DISTRIC and 4time awarded as BEST CHEMIST
+        AND DRUGIST SHOP OF AREA ‘M’ NAGPUR.</string>
+
+   <string name="med_poly1">
+    1. Valid prescription from a Doctor is mandatory for all medicine orders.
+   </string>
+   <string name="med_poly2">
+    2. Kindly display the original prescription at the time of picking up medicines.
+    </string>
+   <string name="med_poly3">
+    3. We will not be able to process the orders without a valid prescription.
+   </string>
+   <string name="med_poly4">
+   4. Please show prescription at the time of delivery.
+   </string> <string name="med_poly5">
+   5. HOME DELIVERYS NOT AVAILABLE FOR SCHADULED DRUGS.
+   </string> <string name="med_poly6">
+   6. Delivery charges depend on mode of transit and will be communicated before dispatch.
+   </string> <string name="med_poly7">
+    7. Delivery charges within Nagpur city is Rs.6 per kilometer.
+
+
+
+
+        </string> <string name="med_poly_note">Note:</string>
+        <string name="med_poly_note1">1. You are required to send a scan copy or photo of valid prescription from an authorized Doctor which is mandatory</string>
+        <string name="med_poly_note2">2. No medicine will be delivered if the order amount is below Rs.1000 and avail free home delivery</string>
+        <string name="med_poly_note3">3. Payment method only COD (Cash on Delivery) or card payment on doorstep is available</string>
+        <string name="med_poly_note4">4. For all in stock items the delivery time will be confirmed by telephonic communication or notification through app or by SMS subject to availability.</string>
+
+
+        <string name="med_poly_upload">Upload Prescription:</string>
+        <string name="med_poly_upload1">Allowed file types: doc, docx, jpeg &amp; pdf.
+        Mandatory contents required in prescription</string>
+        <string name="med_poly_upload2">- Doctor\'s Registration Number</string>
+        <string name="med_poly_upload3">- Doctor\'s Name and Address</string>
+        <string name="med_poly_upload4">- Patients Name and Age</string>
+        <string name="med_poly_upload5">- Prescription Date (According to Prescription and doses)</string>
+        <string name="med_poly_upload6">- Rx Symbol</string>
+        <string name="med_poly_upload7">- Medicine Name</string>
+
+
+        <string name="med_poly_text">Please enter the list of drugs to avoid misreading, However it is not mandatory.</string>
+        <string name="med_poly_text1">Once the order is placed by either method, Prasad medical &amp; general stores shall examine the authenticity of the order in terms of Products ordered &amp; will deliver the order after complying with the requirements of Drugs and Cosmetic Act. Please note that for some
+            medicines which are sensitive to pharmacy rules, we will ask a genuine prescription to be verified before sale.</string>
+
+        <string name="medi_poly">E-mail And SMS</string>
+
+        <string name="medi_poly1">By registering Your phone number and email with us, You consent to be contacted by Us via
+        phone calls and/or SMS notifications or emails, in case of any order or shipment or delivery related
+        updates and/or to update you about new offers and promotions..</string>
+
+            <string name="medi_poly_refund">Refunds Possible If</string>
+
+            <string name="medi_poly_refund1">
+                You received a defective item;
+         the ordered item(s) is lost or damaged during transit;
+         the ordered item(s) is past its expiry date</string>
+
+            <string name="medi_poly_terms">Changes to these Terms and Conditions</string>
+
+            <string name="medi_poly_terms1">we reserve the right to amend these terms and conditions from time to time without further notice to
+        you.Any such amendments we make shall be effective once we post a revised version of these
+        Terms and Conditions</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="nameerror">Enter a valid name</string>
+    <string name="moberr">Enter Valid Mobile Number</string>
+    <string name="emailerror">Enter a valid email</string>
+    <string name="passerror">Password must contain(At least one upper case,one digit,one special character,eight in length)</string>
+    <string name="adharerror">Enter a Aadhar Number</string>
+    <string name="panerror">Enter a valid Pan number</string>
+    <string name="title_activity_phone_verfication">PhoneVerfication</string>
+    <string name="addtocart">Add to Cart</string>
+    <string name="buynow">Buy Now</string>
+    <string name="address">World of medicines c/o Prasad medical and general stores opposite bank of India, cement road, pratapnagar, Nagpur, Maharashtra, India 440022</string>
+    <string name="delivery">Delivery</string>
+    <string name="savetolater">Save To Later</string>
+    <string name="remove">Remove</string>
+    <string name="add_to_cart">Add To Cart</string>
+    <string name="change_or_add_address">Change Or Add Address</string>
+    <string name="price">Price</string>
+    <string name="free">Free</string>
+    <string name="amount_payable">Amount to be Paid</string>
+    <string name="product_cost">Product Cost</string>
+    <string name="product_discount">Product Discount</string>
+    <string name="delivery_date">Delivery Date</string>
+    <string name="price_details">Product Details</string>
+    <string name="product_size">Product Size</string>
+    <string name="product_price">Product Price-</string>
+    <string name="product_off">15%</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="closingB">)</string>
+    <string name="openingB">(</string>
+    <string name="rupee">₹</string>
+
+
+    <string name="products">Products</string>
+    <string name="products1">WhiteTone Powder</string>
+    <string name="products2">Himalaya Facewash</string>
+    <string name="products3">Products</string>
+    <string name="products4">Products</string>
+    <string name="products5">Products</string>
+    <string name="products6">Products</string>
+    <string name="products7">Products</string>
+    <string name="products8">Products</string>
+    <string name="products9">Products</string>
+    <string name="products10">Products</string>
+    <string-array name="number">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+
+</resources>

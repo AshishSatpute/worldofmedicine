@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.wpes.worldofmedicine">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+
+    <application
+        android:name=".utils.AppController"
+        android:allowBackup="true"
+        android:icon="@drawable/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".productcategories.Veternary"></activity>
+        <activity android:name=".productcategories.WomansSpecial" />
+        <activity android:name=".productcategories.WellnessProtein" />
+        <activity android:name=".productcategories.Surgical" />
+        <activity android:name=".productcategories.Devices" />
+        <activity android:name=".productcategories.DailyNeeds" />
+        <activity android:name=".productcategories.Alopathy" />
+        <activity android:name=".productcategories.Cosmetic" />
+        <activity android:name=".productcategories.Ayurvedic" />
+        <activity android:name=".productcategories.BabyProduct" />
+        <activity android:name=".activities.OtpVerification" />
+        <activity android:name=".activities.Upload" />
+        <activity android:name=".drawerclasses.DrawerOrder" />
+        <activity android:name=".drawerclasses.DrawerPrivacy" />
+        <activity android:name=".drawerclasses.DrawerMediPoly" />
+        <activity android:name=".drawerclasses.DrawerAbout" />
+        <activity android:name=".drawerclasses.DrawerCategories" />
+        <activity android:name=".drawerclasses.DrawerContact" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".activities.Registration" />
+        <activity android:name=".activities.Login" />
+        <activity android:name=".activities.ItemDetails" />
+        <activity android:name=".activities.Delivery" />
+        <activity
+            android:name=".activities.SplashScreenActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.SEARCH" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
